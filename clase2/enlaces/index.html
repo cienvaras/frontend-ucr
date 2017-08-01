@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enlaces - Página de inicio</title>
+</head>
+<body>
+  <h1>¿Cómo funcionan los enlaces?</h1>
+  <nav>
+    <h2>Navegación</h2>
+    <ul>
+      <li><a href="pagina1.html">Página 1</a></li>
+      <li><a href="pagina2.html">Página 2</a></li>
+      <li><a href="pagina3.html">Página 3</a></li>
+      <li><a href="pagina4/index.html">Página 4</a>
+        <ul>
+          <li><a href="pagina4/pagina4_1.html">Página 4.1</a></li>
+          <li><a href="pagina4/pagina4_2.html">Página 4.2</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.google.com/">Google</a></li>
+    </ul>
+  </nav>
+  <article>
+    <figure>
+      <img src="imagenes/img1.jpg" alt="Imagen 1">
+      <figcaption>
+        Imagen con ruta relativa (<a href="https://www.flickr.com/photos/marcusmeissner/8105112348">Fuente</a>).
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="imagenes/cat1/img2.jpg" alt="Imagen 1">
+      <figcaption>
+        Otra imagen con ruta relativa (<a href="https://www.flickr.com/photos/91387891@N07/16195012872">Fuente</a>).
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="/clase2/enlaces/imagenes/img3.jpg" alt="Imagen 1">
+      <figcaption>
+        Imagen con ruta absoluta. Sólo funcionará si estamos en un servidor (<a href="https://www.flickr.com/photos/draganbrankovic/33639950783">Fuente</a>).
+      </figcaption>
+    </figure>
+  </article>
+</body>
+</html>
