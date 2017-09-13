@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #E3E3E3;
+}
+
+.page-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+main {
+  overflow: hidden;
+}
+
+.product-grid {
+  float: left;
+  width: 70%;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.sidebar {
+  padding: 15px;
+  background-color: #ccc;
+  float: left;
+  width: 27%;
+  margin-left: 3%;
+}
+
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.main-nav__item a {
+  display: block;
+  padding: 12px 20px;
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-nav__item a:hover {
+  color: #fff;
+  background-color: #333;
+}
