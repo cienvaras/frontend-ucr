@@ -17,11 +17,19 @@ img {
   max-width: 1000px;
   margin: 0 auto;
   background-color: #fff;
-  overflow: hidden;
 }
 
-main {
-  overflow: hidden;
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .page-title {
+    width: 100%;
+    flex: 0 0 100%;
+  }
 }
 
 .product-grid {
@@ -30,24 +38,23 @@ main {
   margin-bottom: 30px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .product-grid {
-    float: left;
     width: 70%;
+    flex: 0 0 70%;
     margin-bottom: 0;
   }
 }
 
 .sidebar {
-  padding: 15px;
-  background-color: #ccc;
+    padding: 15px;
+    background-color: #ccc;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .sidebar {
-    float: left;
-    width: 27%;
-    margin-left: 3%;
+    width: 28%;
+    flex: 0 0 28%;
   }
 }
 
@@ -67,7 +74,7 @@ main {
   border-bottom: none;
 }
 
-@media (min-width: 460px) {
+@media screen and (min-width:460px) {
   .main-nav__item {
     display: inline-block;
     border-bottom: none;
